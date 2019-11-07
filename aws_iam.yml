@@ -4,7 +4,7 @@
     - 'vars/groups.yml'
     - 'vars/users.yml'
   vars:
-    sidpasswd: "{{ password }}"
+    #sidpasswd: "{{ password }}"
   gather_facts: False
   tasks:
     - name: Statefully manage IAM groups
